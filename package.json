@@ -1,0 +1,45 @@
+{
+  "name": "@tool-developer/wo-cli",
+  "version": "0.0.1",
+  "description": "Command line interface for rapid development",
+  "main": "index.js",
+  "bin": {
+    "wo": "./cli.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tool-developer/wo-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "wo-cli"
+  ],
+  "author": "@tool-developer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tool-developer/wo-cli/issues"
+  },
+  "homepage": "https://github.com/tool-developer/wo-cli#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "execa": "^5.1.1",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "inquirer": "^8.1.1",
+    "is-git-clean": "^1.1.0",
+    "lodash": "^4.17.21",
+    "ora": "^5.4.1",
+    "papaparse": "^5.3.1",
+    "semver": "^7.3.5",
+    "yargs-parser": "^20.2.9",
+    "yeoman-generator": "^5.4.0"
+  }
+}
