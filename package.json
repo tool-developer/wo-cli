@@ -35,11 +35,14 @@
     "glob": "^7.1.7",
     "inquirer": "^8.1.1",
     "is-git-clean": "^1.1.0",
+    "jscodeshift": "^0.13.0",
     "lodash": "^4.17.21",
+    "mem-fs": "^2.2.1",
+    "mem-fs-editor": "^9.0.1",
     "ora": "^5.4.1",
     "papaparse": "^5.3.1",
     "semver": "^7.3.5",
     "yargs-parser": "^20.2.9",
-    "yeoman-generator": "^5.4.0"
+    "yeoman-generator": "4.13.0"
   }
 }
