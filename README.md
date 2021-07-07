@@ -1,5 +1,8 @@
 # wo-cli
-Command line interface for rapid development
+快速开发脚手架
+
+可以自定义模板，从而创建对应模板类型项目，模板不受语言框架限制(React,Vue均可)，具体参考[添加新模板类型](#添加新模板类型)。
+
 
 
 ## 操作步骤
