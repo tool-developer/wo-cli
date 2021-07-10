@@ -78,8 +78,6 @@ wo page user/test4 --template controller
 
 
 
-
-
 `注意`:如果本身页面模板就没有index.*相关文件，是可以不使用no-index选项的，使用了会得到如下提示：
 
 >The 'index' is not index.* files, can not set 'not-index' option 
@@ -244,3 +242,10 @@ wo add --name test --repo https://github.com/tool-developer-template/wo-template
 
 ### 页面模板添加
 页面模板，只需要在模板仓库地址中有pages目录下，放置提取的页面结构文件即可。
+
+页面模板中也可以使用变量，除了注入prompts输入之外，还额外注入两个变量。
+
+```
+pageName:页面名字,如index
+contextName:转换处理之后的页面名字(首字母转换为大写),如Index
+```
