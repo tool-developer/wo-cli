@@ -58,6 +58,28 @@ wo page test/t1 --template loading
 wo page user/test2 --no-index
 ```
 
+通过--dir，指定自定义目录，创建页面
+```
+wo page user/test3 --dir src/pages
+```
+
+如果.wo中配置有--template对应模板同名大写目录，会使用该目录
+.wo
+```
+CONTROLLER=controller/
+```
+配置有CONTROLLER(controller的大写)，指定--templdate的时候，会使用该配置，
+
+不会使用SRC_PAGES配置，从而实现页面模板多目录配置。
+```
+wo page user/test4 --template controller
+```
+执行优先级是--dir,[template.toUpperCase()],SRC_PAGES。
+
+
+
+
+
 `注意`:如果本身页面模板就没有index.*相关文件，是可以不使用no-index选项的，使用了会得到如下提示：
 
 >The 'index' is not index.* files, can not set 'not-index' option 
