@@ -92,6 +92,14 @@ wo page --list
 ```
 wo update --meta --type
 ```
+
+由于访问github的问题，模板仓库同步了一份到gitee.com
+
+v0.05之后，可以指定meta仓库为gitee.com地址
+```
+wo update --meta https://gitee.com/tool-developer/wo-template-meta.git --type
+```
+
 or 
 
 只升级具体类型模板
